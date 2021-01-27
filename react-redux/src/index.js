@@ -6,8 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 import {createStore} from 'redux';
 
+import AppActions from './reducers/AppReducer'; 
+
 
 // Store -> globalized state
+let store = createStore()
 
 // Action - Describes what you want it to do
 
